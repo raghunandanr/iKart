@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>1</key>
+	<dict>
+		<key>name</key>
+		<string>Classic Board Games</string>
+		<key>discount</key>
+		<integer>10</integer>
+		<key>tagline</key>
+		<string>select $19 sale games</string>
+		<key>image</key>
+		<string>BoardGames</string>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>name</key>
+		<string>Sugar Cookie Toast Crunch</string>
+		<key>discount</key>
+		<integer>10</integer>
+		<key>tagline</key>
+		<string>12.2 oz box</string>
+		<key>image</key>
+		<string>Cereal</string>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>name</key>
+		<string>Drawer Set</string>
+		<key>discount</key>
+		<integer>20</integer>
+		<key>tagline</key>
+		<string>today only!</string>
+		<key>image</key>
+		<string>Drawers</string>
+	</dict>
+	<key>4</key>
+	<dict>
+		<key>name</key>
+		<string>Glade Home Fragrance</string>
+		<key>discount</key>
+		<integer>15</integer>
+		<key>tagline</key>
+		<string>assorted scents</string>
+		<key>image</key>
+		<string>Glade</string>
+	</dict>
+	<key>5</key>
+	<dict>
+		<key>name</key>
+		<string>Hand Soap</string>
+		<key>discount</key>
+		<integer>20</integer>
+		<key>tagline</key>
+		<string>hand soap only</string>
+		<key>image</key>
+		<string>HandSoap</string>
+	</dict>
+	<key>6</key>
+	<dict>
+		<key>name</key>
+		<string>Holiday Light Clips</string>
+		<key>discount</key>
+		<integer>10</integer>
+		<key>tagline</key>
+		<string>in the Holiday Shop</string>
+		<key>image</key>
+		<string>LightClips</string>
+	</dict>
+	<key>7</key>
+	<dict>
+		<key>name</key>
+		<string>Nutribullet</string>
+		<key>discount</key>
+		<integer>20</integer>
+		<key>tagline</key>
+		<string>600 series</string>
+		<key>image</key>
+		<string>Nutribullet</string>
+	</dict>
+</dict>
+</plist>
