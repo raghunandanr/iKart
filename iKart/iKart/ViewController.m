@@ -7,21 +7,48 @@
 //
 
 #import "ViewController.h"
+#import "Footmarks_SDK.h"
+#import "Credentials.h"
 
-@interface ViewController ()
+@interface ViewController () {
+    
+        FMAccount *fmAccount;
+}
 
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [[FMAccount sharedInstance] setAccountDelegate:self];
+    [self authenticateApp];
+    
 }
+
+
+- (void) authenticateApp
+{
+    [fmAccount loginToFootmarksServer:FMAppKey andAppSecret:FMAppSecret andUserId:@""];
+}
+
+- (void) loginUnsuccessful: (NSString*)error
+{
+    NSLog(@"\n---LOGIN NOT SUCCESSFULL CALLBACK----\n");
+}
+
+- (void) loginSuccessful
+{
+    NSLog(@"\n---LOGIN SUCCESS CALLBACK----\n");
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 @end
