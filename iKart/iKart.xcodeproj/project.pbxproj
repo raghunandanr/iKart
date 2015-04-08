@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A22A2FC01AD42EBA00493EC8 /* libFootmarks_SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A22A2FBF1AD42EBA00493EC8 /* libFootmarks_SDK.a */; };
+		A22A2FCC1AD4C21400493EC8 /* OfferView.m in Sources */ = {isa = PBXBuildFile; fileRef = A22A2FCB1AD4C21400493EC8 /* OfferView.m */; };
+		A22A2FD21AD4CFB800493EC8 /* ExperienceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A22A2FD01AD4CFB800493EC8 /* ExperienceView.xib */; };
+		A22A2FD31AD4CFB800493EC8 /* OfferView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A22A2FD11AD4CFB800493EC8 /* OfferView.xib */; };
 		A24F2B031AD3EA9200DD7EF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A24F2B021AD3EA9200DD7EF4 /* main.m */; };
 		A24F2B061AD3EA9200DD7EF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A24F2B051AD3EA9200DD7EF4 /* AppDelegate.m */; };
 		A24F2B091AD3EA9200DD7EF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A24F2B081AD3EA9200DD7EF4 /* ViewController.m */; };
@@ -87,7 +90,11 @@
 		A22A2FBE1AD42EBA00493EC8 /* Footmarks_SDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Footmarks_SDK.h; sourceTree = "<group>"; };
 		A22A2FBF1AD42EBA00493EC8 /* libFootmarks_SDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFootmarks_SDK.a; sourceTree = "<group>"; };
 		A22A2FC11AD42F8400493EC8 /* Credentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Credentials.h; sourceTree = "<group>"; };
-		A24F2AFD1AD3EA9100DD7EF4 /* iKart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iKart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A22A2FCA1AD4C21400493EC8 /* OfferView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfferView.h; sourceTree = "<group>"; };
+		A22A2FCB1AD4C21400493EC8 /* OfferView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfferView.m; sourceTree = "<group>"; };
+		A22A2FD01AD4CFB800493EC8 /* ExperienceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ExperienceView.xib; path = "iKart/Xibs & Storyboards/ExperienceView.xib"; sourceTree = "<group>"; };
+		A22A2FD11AD4CFB800493EC8 /* OfferView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OfferView.xib; path = "iKart/Xibs & Storyboards/OfferView.xib"; sourceTree = "<group>"; };
+		A24F2AFD1AD3EA9100DD7EF4 /* CodeChef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeChef.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A24F2B011AD3EA9100DD7EF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A24F2B021AD3EA9200DD7EF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A24F2B041AD3EA9200DD7EF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -261,6 +268,8 @@
 		A24F2AF41AD3EA9100DD7EF4 = {
 			isa = PBXGroup;
 			children = (
+				A22A2FD01AD4CFB800493EC8 /* ExperienceView.xib */,
+				A22A2FD11AD4CFB800493EC8 /* OfferView.xib */,
 				A29EDD751AD4605D00CC38B3 /* AdSupport.framework */,
 				A29EDD731AD4605200CC38B3 /* CoreLocation.framework */,
 				A29EDD711AD4604800CC38B3 /* CoreTelephony.framework */,
@@ -280,7 +289,7 @@
 		A24F2AFE1AD3EA9100DD7EF4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A24F2AFD1AD3EA9100DD7EF4 /* iKart.app */,
+				A24F2AFD1AD3EA9100DD7EF4 /* CodeChef.app */,
 				A24F2B161AD3EA9200DD7EF4 /* iKartTests.xctest */,
 			);
 			name = Products;
@@ -336,6 +345,8 @@
 		A29EDCBB1AD45B9100CC38B3 /* DemoSource */ = {
 			isa = PBXGroup;
 			children = (
+				A22A2FCA1AD4C21400493EC8 /* OfferView.h */,
+				A22A2FCB1AD4C21400493EC8 /* OfferView.m */,
 				A29EDCBC1AD45B9100CC38B3 /* BadgeView.h */,
 				A29EDCBD1AD45B9100CC38B3 /* BadgeView.m */,
 				A29EDCBE1AD45B9100CC38B3 /* CustomButton.h */,
@@ -530,7 +541,7 @@
 			);
 			name = iKart;
 			productName = iKart;
-			productReference = A24F2AFD1AD3EA9100DD7EF4 /* iKart.app */;
+			productReference = A24F2AFD1AD3EA9100DD7EF4 /* CodeChef.app */;
 			productType = "com.apple.product-type.application";
 		};
 		A24F2B151AD3EA9200DD7EF4 /* iKartTests */ = {
@@ -599,8 +610,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A24F2B0C1AD3EA9200DD7EF4 /* Main.storyboard in Resources */,
+				A22A2FD31AD4CFB800493EC8 /* OfferView.xib in Resources */,
 				A24F2B111AD3EA9200DD7EF4 /* LaunchScreen.xib in Resources */,
 				A24F2B0E1AD3EA9200DD7EF4 /* Images.xcassets in Resources */,
+				A22A2FD21AD4CFB800493EC8 /* ExperienceView.xib in Resources */,
 				A29EDD4F1AD45CEA00CC38B3 /* RetryView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -628,6 +641,7 @@
 				A29EDD4E1AD45CEA00CC38B3 /* RetryView.m in Sources */,
 				A29EDD4D1AD45CEA00CC38B3 /* REMenuItemView.m in Sources */,
 				A29EDCEF1AD45B9100CC38B3 /* FMExperience+Extension.m in Sources */,
+				A22A2FCC1AD4C21400493EC8 /* OfferView.m in Sources */,
 				A29EDD601AD45CEA00CC38B3 /* RTSpinKitWordPressAnimation.m in Sources */,
 				A29EDD5F1AD45CEA00CC38B3 /* RTSpinKitWaveAnimation.m in Sources */,
 				A29EDD491AD45CEA00CC38B3 /* RECommonFunctions.m in Sources */,
@@ -801,7 +815,7 @@
 					"$(PROJECT_DIR)/iKart/FootmarksSDK",
 				);
 				"OTHER_LDFLAGS[arch=*]" = "-all_load";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CodeChef;
 				PROVISIONING_PROFILE = "b617ee60-41db-495a-9888-b91efb4faf8d";
 			};
 			name = Debug;
@@ -819,7 +833,7 @@
 					"$(PROJECT_DIR)/iKart/FootmarksSDK",
 				);
 				"OTHER_LDFLAGS[arch=*]" = "-all_load";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CodeChef;
 				PROVISIONING_PROFILE = "b617ee60-41db-495a-9888-b91efb4faf8d";
 			};
 			name = Release;

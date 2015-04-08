@@ -131,7 +131,7 @@
 {
     if(isValid)
     {
-        [OffersManager addOffer:self.currentOffer];
+//        [OffersManager addOffer:self.currentOffer];
     }
     [self animateReturnToParent];
 }

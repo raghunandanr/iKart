@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MenuView">
+            <rect key="frame" x="0.0" y="0.0" width="206" height="161"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Menu" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ySS-ns-HcB">
+                    <rect key="frame" x="0.0" y="15" width="206" height="33"/>
+                    <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="28"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view alpha="0.69999998807907104" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rHW-sz-47x" userLabel="View - Reset">
+                    <rect key="frame" x="0.0" y="49" width="206" height="49"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iiO-Qm-f8j" userLabel="Button reset">
+                            <rect key="frame" x="0.0" y="0.0" width="206" height="49"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="clickedReset:" destination="iN0-l3-epB" eventType="touchUpInside" id="As1-Pc-B2k"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="spinnerwhite.png" translatesAutoresizingMaskIntoConstraints="NO" id="eBs-gK-UUD">
+                            <rect key="frame" x="9" y="10" width="30" height="30"/>
+                        </imageView>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Reset" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zbh-Ip-fUz">
+                            <rect key="frame" x="0.0" y="14" width="206" height="21"/>
+                            <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="19"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.030442176870748332" green="0.030272108843537451" blue="0.030612244897959218" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view alpha="0.69999998807907104" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yXR-eg-3fb" userLabel="View - Logout">
+                    <rect key="frame" x="0.0" y="105" width="206" height="49"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qjd-wX-wC3" userLabel="Button logout">
+                            <rect key="frame" x="0.0" y="0.0" width="206" height="49"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="clickedLogout:" destination="iN0-l3-epB" eventType="touchUpInside" id="wpX-Ys-8eg"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="exitwhite.png" translatesAutoresizingMaskIntoConstraints="NO" id="vjQ-dO-5JH">
+                            <rect key="frame" x="9" y="10" width="30" height="30"/>
+                        </imageView>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Logout" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="54t-xK-5Af">
+                            <rect key="frame" x="0.0" y="14" width="206" height="21"/>
+                            <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="19"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.82701247165532876" green="0.82239229024943317" blue="0.83163265306122447" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="tintColor" red="0.67482140639999999" green="0.67105145440000002" blue="0.67859135839999996" alpha="1" colorSpace="calibratedRGB"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btnLogout" destination="qjd-wX-wC3" id="h9l-jG-4nH"/>
+                <outlet property="btnReset" destination="iiO-Qm-f8j" id="GD5-Ue-scM"/>
+                <outlet property="viewReset" destination="rHW-sz-47x" id="5hR-wN-uHq"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="exitwhite.png" width="32" height="32"/>
+        <image name="spinnerwhite.png" width="32" height="32"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
