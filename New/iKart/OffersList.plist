@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>CategoryName</key>
+		<string>Electronics</string>
+		<key>New item</key>
+		<array>
+			<dict>
+				<key>Icon</key>
+				<string>Television</string>
+				<key>Name</key>
+				<string>Television</string>
+				<key>Price</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>Icon</key>
+				<string>Refrigerators</string>
+				<key>Name</key>
+				<string>Refrigerators</string>
+				<key>Price</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>Icon</key>
+				<string>Washing-machine</string>
+				<key>Name</key>
+				<string>Washing Machine</string>
+				<key>Price</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>Icon</key>
+				<string>Mp3Player</string>
+				<key>Name</key>
+				<string>Mp3 Players</string>
+				<key>Price</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>CategoryName</key>
+		<string>Clothes &amp; Apperal</string>
+		<key>New item</key>
+		<array>
+			<dict>
+				<key>Icon</key>
+				<string>shoes</string>
+				<key>Name</key>
+				<string>Shoes</string>
+				<key>Price</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>Icon</key>
+				<string>Clothing</string>
+				<key>Name</key>
+				<string>Clothing</string>
+				<key>Price</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>Icon</key>
+				<string>watch</string>
+				<key>Name</key>
+				<string>Watches</string>
+				<key>Price</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>Icon</key>
+				<string>Ethnic</string>
+				<key>Name</key>
+				<string>Ethnic Wear</string>
+				<key>Price</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>CategoryName</key>
+		<string>Home &amp; Kitchen</string>
+		<key>New item</key>
+		<array>
+			<dict>
+				<key>Icon</key>
+				<string>microwave</string>
+				<key>Name</key>
+				<string>Miocrowave</string>
+				<key>Price</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Mixer Grinders</string>
+				<key>Icon</key>
+				<string>Mixer-Grinder</string>
+				<key>Price</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>CategoryName</key>
+		<string>Books &amp; Media</string>
+		<key>New item</key>
+		<array>
+			<dict>
+				<key>Name</key>
+				<string>Science Fictions</string>
+				<key>Icon</key>
+				<string>ScienceFiction</string>
+				<key>Price</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>Icon</key>
+				<string>Cook_Book</string>
+				<key>Name</key>
+				<string>Cook book</string>
+				<key>Price</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>Icon</key>
+				<string>Encyclopedia</string>
+				<key>Name</key>
+				<string>Digital Encyclopedia</string>
+				<key>Price</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Adventures</string>
+				<key>Icon</key>
+				<string>Adventurtes</string>
+				<key>Price</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>Icon</key>
+				<string>Drama</string>
+				<key>Name</key>
+				<string>Drama</string>
+				<key>Price</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

@@ -67,6 +67,7 @@ static const NSInteger kToSaveIncrementCap = 5;
     
     UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(60, 5, 217, 41)];
     [titleLabel setTag:1];
+    [titleLabel setTintColor:[UIColor whiteColor]];
     [self.viewNotification addSubview:titleLabel];
     
 }
@@ -369,6 +370,15 @@ static const NSInteger kToSaveIncrementCap = 5;
     [ExperienceManager removeAllExperiences];
 }
 
+
+- (void)autoShowExperiences:(NSArray *)experiences
+{
+    for (int i = (int32_t)experiences.count-1; i>=0; i--) {
+        FMExperience *experience = experiences[i];
+        [self presentExperience:experience];
+    }
+}
+
 - (void) addOfferOrExperienceViewToView: (UIView*)v
 {
     if([v isKindOfClass:[ExperienceView class]])
@@ -387,7 +397,7 @@ static const NSInteger kToSaveIncrementCap = 5;
             }
         }
     }
-    [self.navigationController.view addSubview:v];
+    [self.view addSubview:v];
 }
 
 
@@ -589,6 +599,35 @@ static const NSInteger kToSaveIncrementCap = 5;
         popupExperiences.count > 0) {
         // Save experiences if pass the increment cap limit.
         [self saveExperiences];
+    }
+    
+    if ([self isApplicationInForeground]) {
+        
+        // For the type of display, it depends on if there are any auto-show types.
+        //  If yes, display the experiences content and send the alert in queue.
+        //  Otherwise, display the listing of prompts and alerts.
+        if (popupExperiences.count > 0) {
+            // show popups if any
+            [self autoShowExperiences:popupExperiences];
+            
+
+        }
+//        else if (notificationExperiences.count == 0) {
+//            // otherwise show unread experience
+//            if (!_experienceNotificationListingVC)
+//                [self openExperienceNotificationListingWithExperiences:[ExperienceManager unreadExperiences]];
+//        } else {
+//            [self openExperienceNotificationListingWithExperiences:notificationExperiences];
+//        }
+//    } else {
+//        
+//        // increment badge number
+//        [self showBadgeWithIncreaseBadgeCount:notificationExperiences.count];
+//        
+//        // even if the app is in background, once the app enters the foreground,
+//        //   the app will automatically display the experience content.
+//        [self autoShowExperiences:popupExperiences];
+//    }
     }
 
 }
